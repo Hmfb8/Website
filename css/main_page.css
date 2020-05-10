@@ -9,14 +9,6 @@
     margin-top: 10px;
 }
 
-.Profile_Account_Img {
-    width: 20%;
-    height: 20%;
-    border-style: none;
-    float: right;
-    vertical-align: middle;
-}
-
 .Big_Site_Name {
     text-align: center;
     background-color: #656E97;
@@ -104,6 +96,10 @@
     text-decoration: underline;
 }
 
+.Load_Account_Button:active {
+    color: pink;
+}
+
 footer {
     background-color: #1c1d1f;
     color: white;
@@ -138,6 +134,8 @@ button {
     border-style: groove;
     border-color: white;
     border-radius: 25px;
+    width: 150px;
+    height: 40px;
     transition-duration: 0.4s;
 }
 
@@ -148,9 +146,6 @@ button:hover {
     box-shadow: 2px 2px gray;
 }
 
-.Load_Account_Button:active {
-    color: pink;
-}
 
 @font-face {
     font-family: "Highlight";
