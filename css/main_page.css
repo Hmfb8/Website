@@ -1,0 +1,160 @@
+.Create_Account {
+    float: right;
+    margin-top: 10px;
+}
+
+.Load_Account {
+    float: right;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.Profile_Account_Img {
+    width: 20%;
+    height: 20%;
+    border-style: none;
+    float: right;
+    vertical-align: middle;
+}
+
+.Big_Site_Name {
+    text-align: center;
+    background-color: #656E97;
+    font-size: 500%;
+    color: #e1e9f5;
+    text-shadow: 3px 3px #000000;
+    font-family: "Highlight";
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Image_Square {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+}
+
+.Text_Name_Paragraph {
+    text-align: center;
+    font-size: 150%;
+    font-family: serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: #999;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+.Image_Square_Div_Left {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.Image_Square_Div_Right {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+}
+
+
+.Image_Square_Div {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+}
+
+.Image_Square_Div_Left {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.Image_Square_Div_Right {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 12.5%;
+    margin-bottom: 100px;
+}
+
+
+.Image_Square_Div {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-left: 12.5%;
+    margin-bottom: 100px;
+}
+
+.List_Title {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1c1d1f;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+}
+
+header {
+    background-color: #1c1d1f;
+    height: 75px;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #DBFFFC;
+    position: absolute;
+    min-height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: groove;
+    border-color: white;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #ffc940;
+    border-style: solid;
+    border-color: red;
+    box-shadow: 2px 2px gray;
+}
+
+.Load_Account_Button:active {
+    color: pink;
+}
+
+@font-face {
+    font-family: "Highlight";
+    src: url("../source/font/Highlight.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
